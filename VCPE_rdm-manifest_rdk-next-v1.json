@@ -1,10 +1,16 @@
 {
-  "app_name": "greeter",
-  "dwld_on_demand": "false",
-  "dwld_method_controller": "xconf",
-  "pkg_name": "greeter-signed.tar",
-  "pkg_type": "app",
-  "pkg_version": "1.0",
-  "app_size": "1M",
-  "is_versioned": "false"
+  "manifest_version": "rdk-next-v1",
+  "release_name": "RDM External Test Manifest",
+  "packages": [
+    {
+      "app_name": "greeter",
+      "dwld_on_demand": "false",
+      "dwld_method_controller": "xconf",
+      "pkg_name": "greeter-signed.tar",
+      "pkg_type": "app",
+      "pkg_version": "1.0",
+      "app_size": "1M",
+      "is_versioned": "false"
+    }
+  ]
 }
